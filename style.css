@@ -1,0 +1,29 @@
+html {
+  background-color: black;
+  color: white;
+}
+body {
+  display: grid;
+  justify-items: center;
+  margin-top: 32px;
+}
+
+.imgR2D2 {
+  width: 300px;
+  margin-bottom: 32px;
+}
+
+div {
+  width: 400px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgR2D2 {
+    width: 90%;
+  }
+
+  div {
+    width: 90%;
+  }
+}
